@@ -1,0 +1,66 @@
+#-------------------------------
+# Build settings
+
+port: 443
+url: "https://www.jennifer-codes.com" # the base hostname & protocol for your site, e.g. http://example.com
+enforce_ssl: https://www.jennifer-codes.com
+include: ['_includes/portfolio']
+
+#-------------------------------
+# General Site Settings
+
+title: Jennifer Parak
+description: Software Engineer. Hardware Enthusiast. Diversity in Tech Advocate.
+email: jenpaff0@gmail.com
+
+# menu:
+# - {name: Contacts, url: '#contact'}
+# - {name: Work And Projects, url: '#workandprojects'}
+# - {name: About Me, url: '#about'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Software Engineer. Passionate about delivering high quality software & embracing diversity in the tech industry'
+  author: 'Jennifer Parak'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics-ua: 'G-7YEJ28GEMD'
+
+#-------------------------------
+# Introduction
+
+#-------------------------------
+# About
+
+
+#-------------------------------
+# Work and Projects
+
+projects:
+- {filter: work, name: Software Developer at Accenture, folder: 'proj-1', file: 'portfolio/proj-1.html'}
+- {filter: projects, name: Port To Success, folder: 'proj-2', file: 'portfolio/proj-2.html'}
+- {filter: volunteering, name: Systers, folder: 'proj-3', file: 'portfolio/proj-3.html'}
+- {filter: work, name: Google Summer Of Code, folder: 'proj-4', file: 'portfolio/proj-4.html'}
+- {filter: uni, name: My First iOS App, folder: 'proj-5', file: 'portfolio/proj-5.html'}
+- {filter: uni, name: MSc Dissertation Cracking Captchas, folder: 'proj-6', file: 'portfolio/proj-6.html'}
+- {filter: work, name: SE Internship at Raiffeisen Bausparkasse, folder: 'proj-7', file: 'portfolio/proj-7.html'}
+- {filter: work, name: What's next.., folder: 'proj-8', file: 'portfolio/proj-8.html'}
+
+#-------------------------------
+# Footer
+
+socials:
+- {icon: 'soc-linkedin', link: 'https://at.linkedin.com/in/jennifer-parak-aab94628'}
+- {icon: 'soc-twitter', link: 'https://twitter.com/jenpaff'}
+- {icon: 'soc-github', link: 'https://github.com/jenpaff'}

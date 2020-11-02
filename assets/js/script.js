@@ -36,8 +36,8 @@ $(document).ready(function() {
 
 	$(function() {
 
-		var skillsTopOffset = $(".skillsSection").offset().top;
-		var statsTopOffset = $(".statsSection").offset().top;
+		var skillsTopOffset = $("#skills").offset().top;
+		var statsTopOffset = $("#stats").offset().top;
 		var countUpFinished = false;
 
         $(window).scroll(function(){
