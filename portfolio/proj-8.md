@@ -1,3 +1,13 @@
 ---
-title: Currently working at ThoughtWorks
+title: Software Engineer at ThoughtWorks
 ---
+
+<strong>Period:</strong> since August 2019
+
+<strong>Skills Acquired:</strong> 
+* Test Driven Development
+* Pair Programming
+
+<strong>Description:</strong> 
+
+<strong>Resources:</strong> None available 

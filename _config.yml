@@ -12,9 +12,6 @@ seo:
   description: 'Software Engineer. Passionate about delivering high quality software & embracing diversity in the tech industry'
   author: 'Jennifer Parak'
 
-markdown: kramdown
-permalink: pretty
-
 #port: 443
 
 include: ['_includes/portfolio']
