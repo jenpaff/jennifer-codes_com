@@ -48,14 +48,14 @@ google-analytics-ua: 'G-7YEJ28GEMD'
 # Work and Projects
 
 projects:
+- {filter: work, name: Software Engineer at ThoughtWorks, folder: 'proj-8', file: 'portfolio/proj-8.html'}
 - {filter: work, name: Software Developer at Accenture, folder: 'proj-1', file: 'portfolio/proj-1.html'}
-- {filter: projects, name: Port To Success, folder: 'proj-2', file: 'portfolio/proj-2.html'}
 - {filter: volunteering, name: Systers, folder: 'proj-3', file: 'portfolio/proj-3.html'}
-- {filter: work, name: Google Summer Of Code, folder: 'proj-4', file: 'portfolio/proj-4.html'}
+- {filter: project, name: Port To Success, folder: 'proj-2', file: 'portfolio/proj-2.html'}
+- {filter: work opensource, name: Google Summer Of Code, folder: 'proj-4', file: 'portfolio/proj-4.html'}
 - {filter: uni, name: My First iOS App, folder: 'proj-5', file: 'portfolio/proj-5.html'}
 - {filter: uni, name: MSc Dissertation Cracking Captchas, folder: 'proj-6', file: 'portfolio/proj-6.html'}
 - {filter: work, name: SE Internship at Raiffeisen Bausparkasse, folder: 'proj-7', file: 'portfolio/proj-7.html'}
-- {filter: work, name: What's next.., folder: 'proj-8', file: 'portfolio/proj-8.html'}
 
 #-------------------------------
 # Footer

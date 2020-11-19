@@ -1,4 +1,5 @@
 :root {
+	--primary-background: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 	--primary: #ff6e6c;
 	--background: #fff;
 	--main: #fff;
@@ -88,7 +89,7 @@ section .heading {
 }
 
 #skills, #contact {
-	background-color: var(--primary);
+	background-image: var(--primary-background);
 	color: var(--main);
 }
 
@@ -217,7 +218,7 @@ section .heading {
 }
 
 .filter .current {
-	background-color: var(--primary);
+	background-image: var(--primary-background);
 	border-color: var(--primary);
 	color: var(--main);
 }
@@ -234,12 +235,6 @@ section .heading {
 
 .items li img {
 	width: 100%;
-
-	/* -webkit-transition: all 0.2s linear, 1s;
-    -moz-transition: all 0.2s linear, 1s;
-    -o-transition: all 0.2s linear, 1s;
-    -ms-transition: all 0.2s linear, 1s;
-    -transition: all 0.2s linear, 1s; */
 }
 
 .items .item {
@@ -247,37 +242,6 @@ section .heading {
 	display: block;
 	overflow: hidden;
 }
-
-/* .items .icons {
-	position: absolute;
-    width: 90px;
-    height: 40px;
-    left: 50%;
-    top: 50%;
-    margin: -20px auto 0 -47px;
-    text-align: center;
-    z-index: 3;
-}
-
-.items .icons i {
-	color: var(--main);
-    font-size: 20px;
-    margin-top: 9px;
-} */
-
-/* .items a {
-	border: 1px black solid;
-	width: 40px;
-    height: 40px;
-    background-color:var(--primary);
-    position: relative;
-    display: inline-block;
-
-    -webkit-transition: all 0.2s linear, 0.2s;
-	-moz-transition: all 0.2s linear, 0.2s;
-	-o-transition: all 0.2s linear, 0.2s;
-	-transition: all 0.2s linear, 0.2s;
-} */
 
 .items a .imageOverlay {
 	width: 100%;
@@ -287,13 +251,7 @@ section .heading {
 	top: 0px;
 	opacity: 0;
 	transition: .5s ease;
-	background-color:var(--primary);
-
-    /* -webkit-transition: all 0.2s linear, 1s;
-    -moz-transition: all 0.2s linear, 1s;
-    -o-transition: all 0.2s linear, 1s;
-    -ms-transition: all 0.2s linear, 1s;
-    -transition: all 0.2s linear, 1s; */
+	background-image:var(--primary-background);
 }
 
 .items .item:hover .imageOverlay {
@@ -329,14 +287,6 @@ section .heading {
 	right: 0px;
 }
 
-.items .item:hover img {
-	/* -webkit-transform: scale(1.05, 1.05);
-    -moz-transform: scale(1.05, 1.05);
-    -o-transform: scale(1.05, 1.05);
-    -ms-transform: scale(1.05, 1.05);
-    -transform: scale(1.05, 1.05); */
-}
-
 .items {
 	padding: 0;
 }
@@ -352,7 +302,7 @@ section .heading {
 }
 
 #navigation {
-	background-color: var(--primary);
+	background-image: var(--primary-background);
     padding: 20px 10px;
     z-index: 100;
     width: 100%;

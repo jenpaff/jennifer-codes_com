@@ -9,5 +9,3 @@ title: Software Engineer at ThoughtWorks
 * Pair Programming
 
 <strong>Description:</strong> 
-
-<strong>Resources:</strong> None available 
