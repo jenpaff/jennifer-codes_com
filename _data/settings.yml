@@ -49,6 +49,7 @@ google-analytics-ua: 'G-7YEJ28GEMD'
 
 projects:
 - {filter: work, name: Software Engineer at ThoughtWorks, folder: 'proj-8', file: 'portfolio/proj-8.html'}
+- {filter: meetup, name: Create your own portfolio website, folder: 'proj-9', file: 'portfolio/proj-9.html'}
 - {filter: work, name: Software Developer at Accenture, folder: 'proj-1', file: 'portfolio/proj-1.html'}
 - {filter: volunteering, name: Systers, folder: 'proj-3', file: 'portfolio/proj-3.html'}
 - {filter: project, name: Port To Success, folder: 'proj-2', file: 'portfolio/proj-2.html'}
