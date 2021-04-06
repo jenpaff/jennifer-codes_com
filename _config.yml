@@ -20,7 +20,6 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-paginate-v2
 
 # Exclude from processing.
 # The following items will not be processed, by default.
