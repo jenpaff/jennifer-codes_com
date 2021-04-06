@@ -6,30 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="description" content="{{ site.seo.description }}">
-	<meta rel="author" href="{{ site.seo.author }}">
-	<title>{{ site.title }}</title>
-	<link rel="shortcut icon" href="../assets/img/favicon.ico">
-
-	<link rel="stylesheet" type="text/css" href="assets/css/superslides.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
-	
-	<!-- bootstrap -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-	<!-- fancybox css -->
-
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-
-	<!-- fontawesome css -->
-
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
-
-	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-
-		<!-- jquery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	{% include head.html %}
 
 	{% include analytics.html %}
 
@@ -45,22 +22,7 @@
 	{% include portfolio.html %}
 	{% include footer.html %}
 
-	<script src="assets/js/countUp.js"></script>
-	<script src="assets/js/countUp-jquery.js"></script>
-	<script src="assets/js/jquery.superslides.js" ></script>
-	<script src="assets/js/jquery.easypiechart.js" ></script>
-	<script src="assets/js/owl.carousel.js" ></script>
-	<script src="assets/js/typed.js" ></script>
-
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
-	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
-
-	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-
-	<script src="assets/js/script.js" ></script>
+	{% include js.html %}
 
 </body>
 </html>

@@ -1,5 +1,5 @@
 ---
-title: MEETUP: Create your own Portfolio Website
+title: MEETUP Create your own Portfolio Website
 ---
 
 <strong>Period:</strong> September 2020
