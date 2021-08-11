@@ -2,13 +2,13 @@ $(document).ready(function() {
 
 	$('#slides').superslides({
 		animation: 'fade',
-		play: 5000,
-		pagination: false
+		// play: 5000,
+		pagination: true
 	});
 
 	var typed = new Typed(".typed", {
 		strings: ["Software Engineer.", "Hardware Enthusiast.", "Diversity in Tech Advocate."],
-		typeSpeed: 120, 
+		typeSpeed: 120,
 		loop: true,
 		startDelay: 1000,
 		showCursor: false
