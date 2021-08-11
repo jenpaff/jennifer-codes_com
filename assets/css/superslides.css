@@ -45,7 +45,7 @@
   width: 100%;
 }
 .slides-pagination a {
-  border: 2px solid #222;
+  border: 2px solid #f0f0f0;
   border-radius: 15px;
   width: 10px;
   height: 10px;
@@ -61,5 +61,5 @@
   text-indent: -100%;
 }
 .slides-pagination a.current {
-  background: #222;
+  background: #f0f0f0;
 }
